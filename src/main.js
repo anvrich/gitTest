@@ -4,6 +4,7 @@ function sayHi() {
 
 function work(){
     console.log("working")
+    //working porgress
 }
 
 function sayBye() {

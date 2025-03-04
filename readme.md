@@ -74,15 +74,36 @@
   ```
 
 </details>
-
-
 </details>
 
 
+<details>
+<summary>🖱️ 3.1  Ветки – Введение </summary>
 
-Ветки – Создание и переключение
-git branch
-git branch -v
-git branch 'например feature'
-git checkout feature
-git checkout -b feature = branch + chekcout
+####   
+
+<details>
+<summary>🌿 3.2 Git – Ветки – Создание и переключение</summary>
+
+- **`git branch`** – список веток
+- **`git branch -v`** – список веток с коммитами
+- **`git branch <имя>`** – создать ветку (например, `feature`)
+- **`git checkout <имя>`** – переключиться на ветку
+- **`git checkout -b <имя>`** – создать и переключиться
+
+</details>
+
+####   
+<details>
+<summary>🌿 3.3 Git – Ветки – Команда checkout при незакоммиченных изменениях</summary>
+
+- **`git checkout -f master`** – принудительно на master, отбрасывает изменения
+- **`git checkout -f HEAD`** – сбрасывает до HEAD, убирает изменения
+- **`git checkout -f`** – то же, что и -f HEAD, для текущей ветки
+- **`git stash`** – прячет изменения в "тайник"
+- **`git checkout <обратно>`** – переключается обратно на ветку
+- **`git stash pop`** – возвращает спрятанные изменения
+
+</details>
+
+</details>
