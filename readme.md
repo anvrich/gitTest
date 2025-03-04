@@ -77,3 +77,12 @@
 
 
 </details>
+
+
+
+Ветки – Создание и переключение
+git branch
+git branch -v
+git branch 'например feature'
+git checkout feature
+git checkout -b feature = branch + chekcout
